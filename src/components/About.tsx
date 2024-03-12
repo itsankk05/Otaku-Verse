@@ -17,9 +17,6 @@ export default function About() {
             className="w-full h-full relative overflow-hidden p-6 lg:p-20"
           >
             <div className="relative z-10">
-              <span className="text-slate-500 font-Inter text-sm uppercase tracking-widest font-semibold">
-                Overline
-              </span>
               <h3 className="text-white font-Sora font-bold lg:leading-tight text-2xl  md:text-4xl lg:text-5xl mt-3 mb-5">
                 Cursus vitae <br /> sollicitudin donec <br /> nascetur. Join now
               </h3>

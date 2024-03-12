@@ -2,6 +2,7 @@ import { useState } from "react";
 import logo from "../images/Sygnet.png";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { Link } from "react-router-dom";
+// import Dashboard from "../pages/Dashboard";
 
 export default function Navbar() {
   const [isActive, setActive] = useState(false);
@@ -48,16 +49,16 @@ export default function Navbar() {
             id="nav-links"
             className="basis-6/12 mx-auto  transition-ease text-xs font-semibold font-Sora hidden lg:flex justify-center items-center gap-8"
           >
-            <a href="#Autctions" className="text-slate-400 hover:text-white">
-              Auctions
-            </a>
+            <Link to="/" className="text-slate-400 hover:text-white">
+              Home
+            </Link>
 
-            <a href="/dashboard" className="text-slate-400 hover:text-white">
+            <Link to="/dashboard" className="text-slate-400 hover:text-white">
               Dashboard
-            </a>
-            <a href="#Discover" className="text-slate-400 hover:text-white">
+            </Link>
+            <Link to="/discover" className="text-slate-400 hover:text-white">
               Discover
-            </a>
+            </Link>
             <a href="#Community" className="text-slate-400 hover:text-white">
               Community
             </a>
@@ -73,7 +74,7 @@ export default function Navbar() {
               <div className="flex h-9 items-center justify-between">
                 <div className="flex">
                   <a href="#home" className="-m-1.5 p-1.5">
-                    <span className="sr-only">NFT Marketplace</span>
+                    <span className="sr-only">OtakuVerse</span>
                     <img className="h-8" src={logo} alt="" />
                   </a>
                 </div>

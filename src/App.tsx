@@ -1,24 +1,23 @@
 import "./App.css";
 
 import Navbar from "./components/Navbar";
-import Banner from "./components/Banner";
-import CardCarousel from "./components/CardCarousel";
-import Description from "./components/Description";
-import Overline from "./components/Overline";
-import About from "./components/About";
-import NFTdivider from "./components/NFTdivider";
-import Footer from "./components/Footer";
 
+import Footer from "./components/Footer";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Dashboard from "./pages/Dashboard";
+import Homepage from "./pages/Homepage";
+import Discover from "./pages/Discover";
 function App() {
   return (
     <>
-      <Navbar />
-      <Banner />
-      <CardCarousel />
-      <Description />
-      <Overline />
-      <About />
-      <NFTdivider />
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/dashboard" element={<Dashboard />}></Route>
+          <Route path="/discover" element={<Discover />}></Route>
+        </Routes>
+      </Router>
       <Footer />
     </>
   );

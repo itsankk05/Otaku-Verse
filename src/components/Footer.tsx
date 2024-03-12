@@ -1,5 +1,3 @@
-import React from "react";
-
 import logo from "../images/Sygnet.png";
 
 export default function Footer() {
@@ -14,7 +12,7 @@ export default function Footer() {
             <div className="flex flex-row gap-5">
               <img src={logo} alt="logo" />
               <h3 className="text-2xl text-white font-Sora font-semibold tracking-wide">
-                NFT Market
+                OtakuVerse
               </h3>
             </div>
             <div className="flex flex-row justify-between items-center text-slate-500 transition-all ease-in-out delay-200 text-sm font-Inter ">
@@ -38,12 +36,7 @@ export default function Footer() {
                 Community
               </div>
             </div>
-            <a
-              className="text-white font-semibold w-max px-6 hover:scale-90 py-3 rounded-lg bg-gradient-contact ease-in duration-200 hover:bg-gradient-to-r from-indigo-700 to-indigo-800"
-              href="#myaccount"
-            >
-              My account
-            </a>
+
             <div className="flex flex-row justify-start gap-4 mt-auto items-center text-slate-500 transition-all ease-in-out text-2xl">
               <i className="bx bxl-facebook-square cursor-pointer hover:text-slate-300"></i>
               <i className="bx bxl-linkedin-square cursor-pointer hover:text-slate-300"></i>
@@ -58,7 +51,7 @@ export default function Footer() {
               velit, sed egestas in. Id nam semper dolor tellus vulputate eget
               turpis.
             </div>
-            <div className="rounded-xl bg-white py-3 px-4 flex justify-start items-center mt-auto">
+            {/* <div className="rounded-xl bg-white py-3 px-4 flex justify-start items-center mt-auto">
               <input
                 className="font-Inter text-sm text-gray-300"
                 type="text"
@@ -67,7 +60,7 @@ export default function Footer() {
               <div className="text-indigo-800 whitespace-nowrap text-sm font-bold font-Sora ml-auto">
                 Sign in
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>

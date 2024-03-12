@@ -22,7 +22,7 @@ export default function Overline() {
               Overline
             </span>
             <h3 className="text-white text-3xl text-center font-Sora my-5">
-              Most popular live auctions
+              Most popular NFTs
             </h3>
             <div className="flex flex-wrap lg:flex-row justify-center items-center gap-3 my-3">
               <div className="border border-gray-800 rounded-lg font-bold px-2 py-1 text-sm cursor-pointer text-slate-500 transition-all ease-in-out hover:border-gray-600">
@@ -49,27 +49,7 @@ export default function Overline() {
                   Fames habitasse risus
                   <br /> ultircies tortor sit
                 </p>
-                <div className="flex flex-row items-center justify-between mt-4">
-                  <div className="text-white text-xs flex items-center  font-Sora">
-                    <i className="bx bx-time text-sm font-thin leading-4 pr-2"></i>
-                    22:59
-                  </div>
-                  <span
-                    className="bg-buttonBG text-buttonTxt rounded-sm font-Sora font-black text-center flex items-center h-5 py-3 px-3 text-xs"
-                    style={{ fontSize: "11px" }}
-                  >
-                    2.55&#32;ETH
-                  </span>
-                </div>
                 <hr className="border-gray-800 my-4" />
-                <div className="flex items-center justify-between">
-                  <div className="text-gray-600 text-xs font-Inter">
-                    101 people are bidding
-                  </div>
-                  <div className="text-gray-600 text-xs flex items-center font-Sora ml-auto">
-                    <i className="bx bx-heart leading-4 text-xl font-thin mr-1"></i>
-                  </div>
-                </div>
               </div>
               <div className="max-w-56">
                 <img
@@ -81,59 +61,20 @@ export default function Overline() {
                   Fames habitasse risus
                   <br /> ultircies tortor sit
                 </p>
-                <div className="flex flex-row items-center justify-between mt-4">
-                  <div className="text-white text-xs flex items-center  font-Sora">
-                    <i className="bx bx-time text-sm font-thin leading-4 pr-2"></i>
-                    22:59
-                  </div>
-                  <span
-                    className="bg-buttonBG text-buttonTxt rounded-sm font-Sora font-black text-center flex items-center h-5 py-3 px-3 text-xs"
-                    style={{ fontSize: "11px" }}
-                  >
-                    2.55&#32;ETH
-                  </span>
-                </div>
                 <hr className="border-gray-800 my-4" />
-                <div className="flex items-center justify-between">
-                  <div className="text-gray-600 text-xs font-Inter">
-                    101 people are bidding
-                  </div>
-                  <div className="text-gray-600 text-xs flex items-center font-Sora ml-auto">
-                    <i className="bx bx-heart leading-4 text-xl font-thin mr-1"></i>
-                  </div>
-                </div>
               </div>{" "}
               <div className="max-w-56">
                 <img
                   className="my-3 rounded-xl w-full h-80 object-cover"
                   src={CatCardImage3}
                   alt="Item Slider"
-                />{" "}
+                />
                 <p className="text-white text-sm font-Sora">
                   Fames habitasse risus
                   <br /> ultircies tortor sit
                 </p>
-                <div className="flex flex-row items-center justify-between mt-4">
-                  <div className="text-white text-xs flex items-center  font-Sora">
-                    <i className="bx bx-time text-sm font-thin leading-4 pr-2"></i>
-                    22:59
-                  </div>
-                  <span
-                    className="bg-buttonBG text-buttonTxt rounded-sm font-Sora font-black text-center flex items-center h-5 py-3 px-3 text-xs"
-                    style={{ fontSize: "11px" }}
-                  >
-                    2.55&#32;ETH
-                  </span>
-                </div>
+
                 <hr className="border-gray-800 my-4" />
-                <div className="flex items-center justify-between">
-                  <div className="text-gray-600 text-xs font-Inter">
-                    101 people are bidding
-                  </div>
-                  <div className="text-gray-600 text-xs flex items-center font-Sora ml-auto">
-                    <i className="bx bx-heart leading-4 text-xl font-thin mr-1"></i>
-                  </div>
-                </div>
               </div>{" "}
               <div className="max-w-56">
                 <img
@@ -145,27 +86,7 @@ export default function Overline() {
                   Fames habitasse risus
                   <br /> ultircies tortor sit
                 </p>
-                <div className="flex flex-row items-center justify-between mt-4">
-                  <div className="text-white text-xs flex items-center  font-Sora">
-                    <i className="bx bx-time text-sm font-thin leading-4 pr-2"></i>
-                    22:59
-                  </div>
-                  <span
-                    className="bg-buttonBG text-buttonTxt rounded-sm font-Sora font-black text-center flex items-center h-5 py-3 px-3 text-xs"
-                    style={{ fontSize: "11px" }}
-                  >
-                    2.55&#32;ETH
-                  </span>
-                </div>
                 <hr className="border-gray-800 my-4" />
-                <div className="flex items-center justify-between">
-                  <div className="text-gray-600 text-xs font-Inter">
-                    101 people are bidding
-                  </div>
-                  <div className="text-gray-600 text-xs flex items-center font-Sora ml-auto">
-                    <i className="bx bx-heart leading-4 text-xl font-thin mr-1"></i>
-                  </div>
-                </div>
               </div>{" "}
               <div className="max-w-56">
                 <img
@@ -177,27 +98,7 @@ export default function Overline() {
                   Fames habitasse risus
                   <br /> ultircies tortor sit
                 </p>
-                <div className="flex flex-row items-center justify-between mt-4">
-                  <div className="text-white text-xs flex items-center  font-Sora">
-                    <i className="bx bx-time text-sm font-thin leading-4 pr-2"></i>
-                    22:59
-                  </div>
-                  <span
-                    className="bg-buttonBG text-buttonTxt rounded-sm font-Sora font-black text-center flex items-center h-5 py-3 px-3 text-xs"
-                    style={{ fontSize: "11px" }}
-                  >
-                    2.55&#32;ETH
-                  </span>
-                </div>
                 <hr className="border-gray-800 my-4" />
-                <div className="flex items-center justify-between">
-                  <div className="text-gray-600 text-xs font-Inter">
-                    101 people are bidding
-                  </div>
-                  <div className="text-gray-600 text-xs flex items-center font-Sora ml-auto">
-                    <i className="bx bx-heart leading-4 text-xl font-thin mr-1"></i>
-                  </div>
-                </div>
               </div>{" "}
               <div className="max-w-56">
                 <img
@@ -209,27 +110,7 @@ export default function Overline() {
                   Fames habitasse risus
                   <br /> ultircies tortor sit
                 </p>
-                <div className="flex flex-row items-center justify-between mt-4">
-                  <div className="text-white text-xs flex items-center  font-Sora">
-                    <i className="bx bx-time text-sm font-thin leading-4 pr-2"></i>
-                    22:59
-                  </div>
-                  <span
-                    className="bg-buttonBG text-buttonTxt rounded-sm font-Sora font-black text-center flex items-center h-5 py-3 px-3 text-xs"
-                    style={{ fontSize: "11px" }}
-                  >
-                    2.55&#32;ETH
-                  </span>
-                </div>
                 <hr className="border-gray-800 my-4" />
-                <div className="flex items-center justify-between">
-                  <div className="text-gray-600 text-xs font-Inter">
-                    101 people are bidding
-                  </div>
-                  <div className="text-gray-600 text-xs flex items-center font-Sora ml-auto">
-                    <i className="bx bx-heart leading-4 text-xl font-thin mr-1"></i>
-                  </div>
-                </div>
               </div>
             </div>
             <div className="flex justify-center mt-16">

@@ -6,14 +6,9 @@ import Item3 from "../images/Item3.png";
 import Item4 from "../images/Item4.png";
 import Item5 from "../images/Item5.png";
 
-import Avatar1 from "../images/01.png";
-import Avatar2 from "../images/02.png";
-import Avatar3 from "../images/03.png";
-import Avatar4 from "../images/04.png";
-
 export default function CardCarousel() {
   const scrl = React.useRef(null);
-  const slide = (shift) => {
+  const slide = (shift: number) => {
     scrl.current.scrollLeft += shift;
   };
   return (
@@ -47,42 +42,6 @@ export default function CardCarousel() {
                 3.19 ETH
               </div>
             </div>
-            <div className="text-white text-xs flex items-center mt-3 font-Sora">
-              <i className="bx bx-time text-sm font-thin leading-4 pr-2"></i>
-              2:41 min left
-            </div>
-            <hr className="border-gray-800 my-4" />
-            <div className="flex items-center">
-              <div className="flex relative w-20">
-                <img
-                  className="w-8 h-8 rounded-full"
-                  src={Avatar1}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-5 rounded-full"
-                  src={Avatar2}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-10 rounded-full"
-                  src={Avatar3}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-14 rounded-full"
-                  src={Avatar4}
-                  alt="avatar profile"
-                />
-              </div>
-              <div className="text-gray-600 text-xs ml-2 font-Inter">
-                35 people are bidding
-              </div>
-              <div className="text-gray-600 text-xs flex items-center font-Sora ml-auto">
-                <i className="bx bx-heart leading-4 text-xl font-thin mr-1"></i>
-                120
-              </div>
-            </div>
           </div>
           <div className="card-body border border-gray-800 rounded-xl snap-center p-3 w-60 min-w-62 md:min-w-72 flex flex-col justify-center">
             <img src={Item2} alt="Card Thumbnail" />
@@ -95,42 +54,6 @@ export default function CardCarousel() {
                 style={{ fontSize: "11px" }}
               >
                 3.19 ETH
-              </div>
-            </div>
-            <div className="text-white text-xs flex items-center mt-3 font-Sora">
-              <i className="bx bx-time text-sm font-thin leading-4 pr-2"></i>
-              2:41 min left
-            </div>
-            <hr className="border-gray-800 my-4" />
-            <div className="flex items-center">
-              <div className="flex relative w-20">
-                <img
-                  className="w-8 h-8 rounded-full"
-                  src={Avatar1}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-5 rounded-full"
-                  src={Avatar2}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-10 rounded-full"
-                  src={Avatar3}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-14 rounded-full"
-                  src={Avatar4}
-                  alt="avatar profile"
-                />
-              </div>
-              <div className="text-gray-600 text-xs ml-2 font-Inter">
-                35 people are bidding
-              </div>
-              <div className="text-gray-600 text-xs flex items-center font-Sora ml-auto">
-                <i className="bx bx-heart leading-4 text-xl font-thin mr-1"></i>
-                120
               </div>
             </div>
           </div>
@@ -147,42 +70,6 @@ export default function CardCarousel() {
                 3.19 ETH
               </div>
             </div>
-            <div className="text-white text-xs flex items-center mt-3 font-Sora">
-              <i className="bx bx-time text-sm font-thin leading-4 pr-2"></i>
-              2:41 min left
-            </div>
-            <hr className="border-gray-800 my-4" />
-            <div className="flex items-center">
-              <div className="flex relative w-20">
-                <img
-                  className="w-8 h-8 rounded-full"
-                  src={Avatar1}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-5 rounded-full"
-                  src={Avatar2}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-10 rounded-full"
-                  src={Avatar3}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-14 rounded-full"
-                  src={Avatar4}
-                  alt="avatar profile"
-                />
-              </div>
-              <div className="text-gray-600 text-xs ml-2 font-Inter">
-                35 people are bidding
-              </div>
-              <div className="text-gray-600 text-xs flex items-center font-Sora ml-auto">
-                <i className="bx bx-heart leading-4 text-xl font-thin mr-1"></i>
-                120
-              </div>
-            </div>
           </div>
           <div className="card-body border border-gray-800 rounded-xl snap-center p-3 w-60 min-w-62 md:min-w-72 flex flex-col justify-center">
             <img src={Item4} alt="Card Thumbnail" />
@@ -195,42 +82,6 @@ export default function CardCarousel() {
                 style={{ fontSize: "11px" }}
               >
                 3.19 ETH
-              </div>
-            </div>
-            <div className="text-white text-xs flex items-center mt-3 font-Sora">
-              <i className="bx bx-time text-sm font-thin leading-4 pr-2"></i>
-              2:41 min left
-            </div>
-            <hr className="border-gray-800 my-4" />
-            <div className="flex items-center">
-              <div className="flex relative w-20">
-                <img
-                  className="w-8 h-8 rounded-full"
-                  src={Avatar1}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-5 rounded-full"
-                  src={Avatar2}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-10 rounded-full"
-                  src={Avatar3}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-14 rounded-full"
-                  src={Avatar4}
-                  alt="avatar profile"
-                />
-              </div>
-              <div className="text-gray-600 text-xs ml-2 font-Inter">
-                35 people are bidding
-              </div>
-              <div className="text-gray-600 text-xs flex items-center font-Sora ml-auto">
-                <i className="bx bx-heart leading-4 text-xl font-thin mr-1"></i>
-                120
               </div>
             </div>
           </div>
@@ -247,42 +98,6 @@ export default function CardCarousel() {
                 3.19 ETH
               </div>
             </div>
-            <div className="text-white text-xs flex items-center mt-3 font-Sora">
-              <i className="bx bx-time text-sm font-thin leading-4 pr-2"></i>
-              2:41 min left
-            </div>
-            <hr className="border-gray-800 my-4" />
-            <div className="flex items-center">
-              <div className="flex relative w-20">
-                <img
-                  className="w-8 h-8 rounded-full"
-                  src={Avatar1}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-5 rounded-full"
-                  src={Avatar2}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-10 rounded-full"
-                  src={Avatar3}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-14 rounded-full"
-                  src={Avatar4}
-                  alt="avatar profile"
-                />
-              </div>
-              <div className="text-gray-600 text-xs ml-2 font-Inter">
-                35 people are bidding
-              </div>
-              <div className="text-gray-600 text-xs flex items-center font-Sora ml-auto">
-                <i className="bx bx-heart leading-4 text-xl font-thin mr-1"></i>
-                120
-              </div>
-            </div>
           </div>
           <div className="card-body border border-gray-800 rounded-xl snap-center p-3 w-60 min-w-62 md:min-w-72 flex flex-col justify-center">
             <img src={Item1} alt="Card Thumbnail" />
@@ -295,42 +110,6 @@ export default function CardCarousel() {
                 style={{ fontSize: "11px" }}
               >
                 3.19 ETH
-              </div>
-            </div>
-            <div className="text-white text-xs flex items-center mt-3 font-Sora">
-              <i className="bx bx-time text-sm font-thin leading-4 pr-2"></i>
-              2:41 min left
-            </div>
-            <hr className="border-gray-800 my-4" />
-            <div className="flex items-center">
-              <div className="flex relative w-20">
-                <img
-                  className="w-8 h-8 rounded-full"
-                  src={Avatar1}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-5 rounded-full"
-                  src={Avatar2}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-10 rounded-full"
-                  src={Avatar3}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-14 rounded-full"
-                  src={Avatar4}
-                  alt="avatar profile"
-                />
-              </div>
-              <div className="text-gray-600 text-xs ml-2 font-Inter">
-                35 people are bidding
-              </div>
-              <div className="text-gray-600 text-xs flex items-center font-Sora ml-auto">
-                <i className="bx bx-heart leading-4 text-xl font-thin mr-1"></i>
-                120
               </div>
             </div>
           </div>
@@ -347,42 +126,6 @@ export default function CardCarousel() {
                 3.19 ETH
               </div>
             </div>
-            <div className="text-white text-xs flex items-center mt-3 font-Sora">
-              <i className="bx bx-time text-sm font-thin leading-4 pr-2"></i>
-              2:41 min left
-            </div>
-            <hr className="border-gray-800 my-4" />
-            <div className="flex items-center">
-              <div className="flex relative w-20">
-                <img
-                  className="w-8 h-8 rounded-full"
-                  src={Avatar1}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-5 rounded-full"
-                  src={Avatar2}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-10 rounded-full"
-                  src={Avatar3}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-14 rounded-full"
-                  src={Avatar4}
-                  alt="avatar profile"
-                />
-              </div>
-              <div className="text-gray-600 text-xs ml-2 font-Inter">
-                35 people are bidding
-              </div>
-              <div className="text-gray-600 text-xs flex items-center font-Sora ml-auto">
-                <i className="bx bx-heart leading-4 text-xl font-thin mr-1"></i>
-                120
-              </div>
-            </div>
           </div>
           <div className="card-body border border-gray-800 rounded-xl snap-center p-3 w-60 min-w-62 md:min-w-72 flex flex-col justify-center">
             <img src={Item3} alt="Card Thumbnail" />
@@ -395,42 +138,6 @@ export default function CardCarousel() {
                 style={{ fontSize: "11px" }}
               >
                 3.19 ETH
-              </div>
-            </div>
-            <div className="text-white text-xs flex items-center mt-3 font-Sora">
-              <i className="bx bx-time text-sm font-thin leading-4 pr-2"></i>
-              2:41 min left
-            </div>
-            <hr className="border-gray-800 my-4" />
-            <div className="flex items-center">
-              <div className="flex relative w-20">
-                <img
-                  className="w-8 h-8 rounded-full"
-                  src={Avatar1}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-5 rounded-full"
-                  src={Avatar2}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-10 rounded-full"
-                  src={Avatar3}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-14 rounded-full"
-                  src={Avatar4}
-                  alt="avatar profile"
-                />
-              </div>
-              <div className="text-gray-600 text-xs ml-2 font-Inter">
-                35 people are bidding
-              </div>
-              <div className="text-gray-600 text-xs flex items-center font-Sora ml-auto">
-                <i className="bx bx-heart leading-4 text-xl font-thin mr-1"></i>
-                120
               </div>
             </div>
           </div>
@@ -447,42 +154,8 @@ export default function CardCarousel() {
                 3.19 ETH
               </div>
             </div>
-            <div className="text-white text-xs flex items-center mt-3 font-Sora">
-              <i className="bx bx-time text-sm font-thin leading-4 pr-2"></i>
-              2:41 min left
-            </div>
-            <hr className="border-gray-800 my-4" />
-            <div className="flex items-center">
-              <div className="flex relative w-20">
-                <img
-                  className="w-8 h-8 rounded-full"
-                  src={Avatar1}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-5 rounded-full"
-                  src={Avatar2}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-10 rounded-full"
-                  src={Avatar3}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-14 rounded-full"
-                  src={Avatar4}
-                  alt="avatar profile"
-                />
-              </div>
-              <div className="text-gray-600 text-xs ml-2 font-Inter">
-                35 people are bidding
-              </div>
-              <div className="text-gray-600 text-xs flex items-center font-Sora ml-auto">
-                <i className="bx bx-heart leading-4 text-xl font-thin mr-1"></i>
-                120
-              </div>
-            </div>
+
+            <div className="flex items-center"></div>
           </div>
           <div className="card-body border border-gray-800 rounded-xl snap-center p-3 w-60 min-w-62 md:min-w-72 flex flex-col justify-center">
             <img src={Item1} alt="Card Thumbnail" />
@@ -495,42 +168,6 @@ export default function CardCarousel() {
                 style={{ fontSize: "11px" }}
               >
                 3.19 ETH
-              </div>
-            </div>
-            <div className="text-white text-xs flex items-center mt-3 font-Sora">
-              <i className="bx bx-time text-sm font-thin leading-4 pr-2"></i>
-              2:41 min left
-            </div>
-            <hr className="border-gray-800 my-4" />
-            <div className="flex items-center">
-              <div className="flex relative w-20">
-                <img
-                  className="w-8 h-8 rounded-full"
-                  src={Avatar1}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-5 rounded-full"
-                  src={Avatar2}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-10 rounded-full"
-                  src={Avatar3}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-14 rounded-full"
-                  src={Avatar4}
-                  alt="avatar profile"
-                />
-              </div>
-              <div className="text-gray-600 text-xs ml-2 font-Inter">
-                35 people are bidding
-              </div>
-              <div className="text-gray-600 text-xs flex items-center font-Sora ml-auto">
-                <i className="bx bx-heart leading-4 text-xl font-thin mr-1"></i>
-                120
               </div>
             </div>
           </div>
@@ -547,42 +184,6 @@ export default function CardCarousel() {
                 3.19 ETH
               </div>
             </div>
-            <div className="text-white text-xs flex items-center mt-3 font-Sora">
-              <i className="bx bx-time text-sm font-thin leading-4 pr-2"></i>
-              2:41 min left
-            </div>
-            <hr className="border-gray-800 my-4" />
-            <div className="flex items-center">
-              <div className="flex relative w-20">
-                <img
-                  className="w-8 h-8 rounded-full"
-                  src={Avatar1}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-5 rounded-full"
-                  src={Avatar2}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-10 rounded-full"
-                  src={Avatar3}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-14 rounded-full"
-                  src={Avatar4}
-                  alt="avatar profile"
-                />
-              </div>
-              <div className="text-gray-600 text-xs ml-2 font-Inter">
-                35 people are bidding
-              </div>
-              <div className="text-gray-600 text-xs flex items-center font-Sora ml-auto">
-                <i className="bx bx-heart leading-4 text-xl font-thin mr-1"></i>
-                120
-              </div>
-            </div>
           </div>
           <div className="card-body border border-gray-800 rounded-xl snap-center p-3 w-60 min-w-62 md:min-w-72 flex flex-col justify-center">
             <img src={Item3} alt="Card Thumbnail" />
@@ -597,42 +198,8 @@ export default function CardCarousel() {
                 3.19 ETH
               </div>
             </div>
-            <div className="text-white text-xs flex items-center mt-3 font-Sora">
-              <i className="bx bx-time text-sm font-thin leading-4 pr-2"></i>
-              2:41 min left
-            </div>
-            <hr className="border-gray-800 my-4" />
-            <div className="flex items-center">
-              <div className="flex relative w-20">
-                <img
-                  className="w-8 h-8 rounded-full"
-                  src={Avatar1}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-5 rounded-full"
-                  src={Avatar2}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-10 rounded-full"
-                  src={Avatar3}
-                  alt="avatar profile"
-                />
-                <img
-                  className="w-8 h-8 absolute left-14 rounded-full"
-                  src={Avatar4}
-                  alt="avatar profile"
-                />
-              </div>
-              <div className="text-gray-600 text-xs ml-2 font-Inter">
-                35 people are bidding
-              </div>
-              <div className="text-gray-600 text-xs flex items-center font-Sora ml-auto">
-                <i className="bx bx-heart leading-4 text-xl font-thin mr-1"></i>
-                120
-              </div>
-            </div>
+
+            <div className="flex items-center"></div>
           </div>
         </div>
       </section>
