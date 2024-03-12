@@ -4,16 +4,42 @@ export default function Dashboard() {
     {
       imageUrl:
         "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/00c2a0f2eacf573f1919e43c4bb728f7.jpg",
-      title: "Realtime Collaboration",
       description:
         "Collaborate in realtime with other editors in a project. See what other editors are doing and edit even a simple text together",
     },
     {
-      imageUrl: "url_of_image_2",
-      title: "History of Edits",
+      imageUrl:
+        "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/haki-1024x341.jpg.webp",
       description:
-        "Go back and forth your history of changes and restore your designs to any point in time",
+        "Haki is a special power system in the anime series One Piece, granting users various abilities such as enhanced physical strength, precognition, and the ability to control others.",
     },
+    {
+      imageUrl:
+        "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/images.jpg",
+      description:
+        "Azuki Anime is a community-driven platform providing curated recommendations and discussions for anime enthusiasts.",
+    },
+    {
+      imageUrl:
+        "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/matt.webp",
+      description:
+        "Azuki Anime is a community-driven platform providing curated recommendations and discussions for anime enthusiasts.",
+    },
+    {
+      imageUrl:
+        "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/1_qQI4CLNgaXyxgsVUBsTW9w.jpeg.webp",
+      description:
+        "Azuki Anime is a community-driven platform providing curated recommendations and discussions for anime enthusiasts.",
+    },
+    {
+      imageUrl:
+        "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/0bc3afaa6f4455f8f2a5658d3779a30d.jpg",
+      description:
+        "Mob Psycho 100 is an anime series that follows the journey of a powerful psychic middle schooler named Mob as he navigates through life while learning to control his extraordinary abilities and facing various supernatural challenges."
+    }
+
+
+    
     // Add more objects for other images
   ];
 
