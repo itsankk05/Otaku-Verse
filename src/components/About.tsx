@@ -21,7 +21,7 @@ export default function About() {
                 Overline
               </span>
               <h3 className="text-white font-Sora font-bold lg:leading-tight text-2xl  md:text-4xl lg:text-5xl mt-3 mb-5">
-                Cursus vitae <br /> sollicitudin donec <br /> nascetur. Join now
+                About the <br /> Creators! <br /> Connect Now
               </h3>
               <p className="text-slate-500 font-Inter text-sm">
                 Donec volutpat bibendum justo, odio aenean congue est <br />{" "}
