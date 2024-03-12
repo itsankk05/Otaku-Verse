@@ -24,6 +24,8 @@ const config = getDefaultConfig({
 
 const queryClient = new QueryClient();
 
+// const isShardeumChain = window.ethereum?.chainId === shardeumSphinx.chainId;
+
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <WagmiProvider config={config}>
     <QueryClientProvider client={queryClient}>

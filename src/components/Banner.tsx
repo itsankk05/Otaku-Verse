@@ -1,4 +1,3 @@
-import React from "react";
 import Frame1 from "../images/Frame.svg";
 import Frame2 from "../images/Frame2.svg";
 
@@ -12,7 +11,7 @@ export default function Banner() {
           </div>
           <h1 className="text-3xl sm:text-6xl lg:text-8xl grid justify-center font-bold leading-none tracking-wide">
             <span className="flex items-center">
-            NFTs: Entertain,
+              NFTs: Entertain,
               <img
                 className="w-8 h-8 sm:w-10 sm:h-14 mt-3"
                 src={Frame1}
@@ -26,11 +25,11 @@ export default function Banner() {
                 src={Frame2}
                 alt="frame2"
               />
-             Collect, Enjoy!
+              Collect, Enjoy!
             </span>
           </h1>
           <div className="pt-8 text-md md:text-lg text-center text-slate-500">
-          Embrace the Future of Digital Collectibles.
+            Embrace the Future of Digital Collectibles.
           </div>
         </div>
         <div className="sponsored-section flex justify-center items-center mt-20">

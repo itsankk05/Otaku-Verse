@@ -1,5 +1,3 @@
-import React from "react";
-
 import CatCardImage1 from "../images/CatCardImage-1.png";
 import CatCardImage2 from "../images/CatCardImage-2.png";
 import CatCardImage3 from "../images/CatCardImage-3.png";
