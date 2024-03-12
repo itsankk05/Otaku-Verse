@@ -7,11 +7,11 @@ export default function Banner() {
       <div className="container pt-24 mt-20 ">
         <div className="hero-section-group text-white p-5">
           <div className="text-slate-400 text-xs font-thin text-center mb-5 font-Inter tracking-widest uppercase">
-            non fungible tokens
+            watch earn share
           </div>
           <h1 className="text-3xl sm:text-6xl lg:text-8xl grid justify-center font-bold leading-none tracking-wide">
             <span className="flex items-center">
-              NFTs: Entertain,
+              Entertain
               <img
                 className="w-8 h-8 sm:w-10 sm:h-14 mt-3"
                 src={Frame1}
@@ -25,7 +25,7 @@ export default function Banner() {
                 src={Frame2}
                 alt="frame2"
               />
-              Collect, Enjoy!
+              Watch, Enjoy!
             </span>
           </h1>
           <div className="pt-8 text-md md:text-lg text-center text-slate-500">

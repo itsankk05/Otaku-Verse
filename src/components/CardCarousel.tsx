@@ -32,11 +32,12 @@ export default function CardCarousel() {
             <img
               src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/00c2a0f2eacf573f1919e43c4bb728f7.jpg"
               alt="Card Thumbnail"
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
 
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
-                Vulputate felis purus <br /> viverra morbi facilisi eget
+                Vulputate felis purus <br /> viverra morbi facilisi eget  
               </p>
               <div style={{ fontSize: "11px" }}>3.19 ETH</div>
             </div>
@@ -45,6 +46,7 @@ export default function CardCarousel() {
             <img
               src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/1e7f87b0d351f0f1e80ace863ae1b09c.jpg"
               alt="Card Thumbnail"
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
@@ -60,8 +62,10 @@ export default function CardCarousel() {
           </div>
           <div className="card-body border border-gray-800 rounded-xl snap-center p-3 w-60 min-w-62 md:min-w-72 flex flex-col justify-center">
             <img
+            
               src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/241e10fc0a3e52029551db5fa83d417a.jpg"
               alt="Card Thumbnail"
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
@@ -76,7 +80,13 @@ export default function CardCarousel() {
             </div>
           </div>
           <div className="card-body border border-gray-800 rounded-xl snap-center p-3 w-60 min-w-62 md:min-w-72 flex flex-col justify-center">
-            <img src={Item4} alt="Card Thumbnail" />
+          <img
+          width="300"
+          height="300"
+              src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/images.jpg"
+              alt="Card Thumbnail"
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            />
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
                 Vulputate felis purus <br /> viverra morbi facilisi eget
@@ -93,6 +103,7 @@ export default function CardCarousel() {
             <img
               src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/00c2a0f2eacf573f1919e43c4bb728f7.jpg"
               alt="Card Thumbnail"
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
@@ -107,7 +118,12 @@ export default function CardCarousel() {
             </div>
           </div>
           <div className="card-body border border-gray-800 rounded-xl snap-center p-3 w-60 min-w-62 md:min-w-72 flex flex-col justify-center">
-            <img src={Item1} alt="Card Thumbnail" />
+          <img
+          className="h-50 w-50"
+              src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/5478a0cb18478fd31194171b97c02cb6.jpg"
+              alt="Card Thumbnail"
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            />
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
                 Vulputate felis purus <br /> viverra morbi facilisi eget
@@ -121,7 +137,11 @@ export default function CardCarousel() {
             </div>
           </div>
           <div className="card-body border border-gray-800 rounded-xl snap-center p-3 w-60 min-w-62 md:min-w-72 flex flex-col justify-center">
-            <img src={Item2} alt="Card Thumbnail" />
+          <img
+              src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/4a2f75b3fb5bddd3d8843073d04bc39b.jpg"
+              alt="Card Thumbnail"
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            />
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
                 Vulputate felis purus <br /> viverra morbi facilisi eget
@@ -135,7 +155,11 @@ export default function CardCarousel() {
             </div>
           </div>
           <div className="card-body border border-gray-800 rounded-xl snap-center p-3 w-60 min-w-62 md:min-w-72 flex flex-col justify-center">
-            <img src={Item3} alt="Card Thumbnail" />
+          <img
+              src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/1c8361e50fd7452cd942a102cdab3d78.jpg"
+              alt="Card Thumbnail"
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            />
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
                 Vulputate felis purus <br /> viverra morbi facilisi eget
@@ -150,8 +174,9 @@ export default function CardCarousel() {
           </div>
           <div className="card-body border border-gray-800 rounded-xl snap-center p-3 w-60 min-w-62 md:min-w-72 flex flex-col justify-center">
             <img
-              src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/56000167aebe4859d4c225929efdfc2f.jpg"
+              src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/1c8361e50fd7452cd942a102cdab3d78.jpg"
               alt="Card Thumbnail"
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
@@ -168,7 +193,11 @@ export default function CardCarousel() {
             <div className="flex items-center"></div>
           </div>
           <div className="card-body border border-gray-800 rounded-xl snap-center p-3 w-60 min-w-62 md:min-w-72 flex flex-col justify-center">
-            <img src={Item1} alt="Card Thumbnail" />
+          <img
+              src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/1c8361e50fd7452cd942a102cdab3d78.jpg"
+              alt="Card Thumbnail"
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            />
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
                 Vulputate felis purus <br /> viverra morbi facilisi eget
@@ -186,7 +215,11 @@ export default function CardCarousel() {
             <hr className="border-gray-800 my-4" />
           </div>
           <div className="card-body border border-gray-800 rounded-xl snap-center p-3 w-60 min-w-62 md:min-w-72 flex flex-col justify-center">
-            <img src={Item2} alt="Card Thumbnail" />
+          <img
+              src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/241e10fc0a3e52029551db5fa83d417a.jpg"
+              alt="Card Thumbnail"
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            />
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
                 Vulputate felis purus <br /> viverra morbi facilisi eget
@@ -200,7 +233,11 @@ export default function CardCarousel() {
             </div>
           </div>
           <div className="card-body border border-gray-800 rounded-xl snap-center p-3 w-60 min-w-62 md:min-w-72 flex flex-col justify-center">
-            <img src={Item3} alt="Card Thumbnail" />
+          <img
+              src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/241e10fc0a3e52029551db5fa83d417a.jpg"
+              alt="Card Thumbnail"
+              style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            />
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
                 Vulputate felis purus <br /> viverra morbi facilisi eget
