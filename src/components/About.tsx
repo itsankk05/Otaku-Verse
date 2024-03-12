@@ -21,8 +21,8 @@ export default function About() {
                 About the <br /> Creators! <br /> Connect Now
               </h3>
               <p className="text-slate-500 font-Inter text-sm">
-                Donec volutpat bibendum justo, odio aenean congue est <br />{" "}
-                porttitor ut. Mauris vestibulum eros libero amet tincidunt.
+              Join us in fostering community bonds. At [Website Name],  <br />{" "}
+              we're dedicated to connecting with our community to share experiences, support one another, and create a vibrant, inclusive space for all.
               </p>
               <div className="flex justify-start items-center gap-4 mt-12">
                 <a
