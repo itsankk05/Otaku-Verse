@@ -1,42 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --midnight: #060714;
+}
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  overflow-x: hidden;
+}
+body {
+  background: var(--midnight);
+  display: flex;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+body::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #dfdfdf;
+  border-radius: 10px;
+}
+body main {
+  background-image: url("./images/Backgroundbckp.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body main::after {
+  content: "";
+  position: absolute;
+  bottom: -110px;
+  width: 100%;
+  height: 10rem;
+  background-color: #060714df;
+  filter: blur(10px);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.bg-gradient-contact {
+  background-image: linear-gradient(to right, #4745d0 10%, #2a27c9);
+}
+#button-carousel {
+  background-color: #26284079;
+  transition: 0.3s all ease;
+}
+
+#button-carousel:hover {
+  transform: scale(1.1);
+  background-color: #535783cc;
+}
+.carousel-wrapper::-webkit-scrollbar {
+  opacity: 0;
+  display: none;
+}
+.img-wrapper::-webkit-scrollbar {
+  display: none;
+  opacity: 0;
+}
+[data-status="inactive"] {
+  /* filter: brightness(0.25); */
+  opacity: 0.25;
+}
+
+div[aria-modal="false"] {
+  display: none;
+}
+
+#card-2::before {
+  content: url(./images/Pleat.png);
+  position: absolute;
+  width: 90%;
+  top: -20px;
+  left: -1px;
+  z-index: 3;
+}
+
+#card-2-2::before {
+  content: url(./images/Pleat-Big.png);
+  position: absolute;
+  width: 90%;
+  top: -40px;
+  left: -1px;
+  z-index: 3;
+}
+
+#p-card-wrapper::after {
+  content: "";
+  position: absolute;
+  width: 75%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  border-radius: 0.75rem;
+  border-top-left-radius: 0rem;
+  background-image: linear-gradient(to left, rgb(14 14 26), transparent);
+}
+
+#card-2,
+#card-2-2 {
+  border-top-left-radius: 0rem;
+  border-top: none;
+}
+
+#card-2::after,
+#card-2-2::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0.75rem;
+  border-top-left-radius: 0rem;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 9%),
+    transparent
+  );
+}
+
+#dividerContainer {
+  width: calc(100% - 150px);
+}
+
+#nft-divider::-webkit-scrollbar {
+  display: none;
+  opacity: 0;
+}
+
+@media only screen and (max-width: 1300px) {
+  img.aspect-square {
+    max-height: 100px;
+    max-width: 100px;
   }
-  to {
-    transform: rotate(360deg);
+  .text-wrapper-ellips p {
+    overflow: hidden;
+    max-height: 6ch;
+    text-overflow: ellipsis;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media only screen and (max-width: 475px) {
+  #card-2-2::before {
+    content: url("./images/Pleat.png");
+    top: -20px;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }

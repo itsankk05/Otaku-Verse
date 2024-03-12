@@ -1,0 +1,76 @@
+import React from "react";
+
+import logo from "../images/Sygnet.png";
+
+export default function Footer() {
+  return (
+    <div>
+      <footer className="container mx-auto p-3 pb-12">
+        <div
+          id="footer-frame"
+          className="rounded-2xl border border-gray-800 flex flex-col lg:flex-row"
+        >
+          <div className="basis-1/3 py-5 px-3 md:p-10 xl:pr-32 flex flex-col gap-12 lg:gap-52">
+            <div className="flex flex-row gap-5">
+              <img src={logo} alt="logo" />
+              <h3 className="text-2xl text-white font-Sora font-semibold tracking-wide">
+                NFT Market
+              </h3>
+            </div>
+            <div className="flex flex-row justify-between items-center text-slate-500 transition-all ease-in-out delay-200 text-sm font-Inter ">
+              <div className="hover:text-slate-300 cursor-pointer">Support</div>
+              <div className="hover:text-slate-300 whitespace-nowrap cursor-pointer">
+                Term of Services
+              </div>
+              <div className="hover:text-slate-300 cursor-pointer">License</div>
+            </div>
+          </div>
+          <div className="basis-1/3 border p-10 xl:p-12 border-y-gray-800 border-x-transparent lg:border-x-gray-800 lg:border-y-transparent flex flex-col justify-start gap-6">
+            <div className="flex flex-col justify-start gap-2 w-max text-white text-md font-Sora">
+              <div className="hover:text-slate-400 cursor-pointer">
+                Auctions
+              </div>
+              <div className="hover:text-slate-400 cursor-pointer">Roadmap</div>
+              <div className="hover:text-slate-400 cursor-pointer">
+                Discover
+              </div>
+              <div className="hover:text-slate-400 cursor-pointer">
+                Community
+              </div>
+            </div>
+            <a
+              className="text-white font-semibold w-max px-6 hover:scale-90 py-3 rounded-lg bg-gradient-contact ease-in duration-200 hover:bg-gradient-to-r from-indigo-700 to-indigo-800"
+              href="#myaccount"
+            >
+              My account
+            </a>
+            <div className="flex flex-row justify-start gap-4 mt-auto items-center text-slate-500 transition-all ease-in-out text-2xl">
+              <i className="bx bxl-facebook-square cursor-pointer hover:text-slate-300"></i>
+              <i className="bx bxl-linkedin-square cursor-pointer hover:text-slate-300"></i>
+              <i className="bx bxl-github cursor-pointer hover:text-slate-300"></i>
+              <i className="bx bxl-twitter cursor-pointer hover:text-slate-300"></i>
+              <i className="bx bxl-instagram-alt cursor-pointer hover:text-slate-300"></i>
+            </div>
+          </div>
+          <div className="basis-1/3 flex flex-col gap-10 lg:gap-0 py-5 px-3 md:p-10 xl:px-24 xl:py-12 justify-center ">
+            <div className="text-slate-500 text-center lg:text-start text-sm font-Inter mb-auto">
+              Nibh volutpat, aliquam id sagittis elementum. Pellentesque laoreet
+              velit, sed egestas in. Id nam semper dolor tellus vulputate eget
+              turpis.
+            </div>
+            <div className="rounded-xl bg-white py-3 px-4 flex justify-start items-center mt-auto">
+              <input
+                className="font-Inter text-sm text-gray-300"
+                type="text"
+                placeholder="Newsletter"
+              />
+              <div className="text-indigo-800 whitespace-nowrap text-sm font-bold font-Sora ml-auto">
+                Sign in
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}

@@ -1,6 +1,5 @@
-import React from "react";
 import ReactDOM from "react-dom/client";
-import { App } from "./App.tsx";
+import App from "./App.tsx";
 import "./index.css";
 import "@rainbow-me/rainbowkit/styles.css";
 import { getDefaultConfig, RainbowKitProvider } from "@rainbow-me/rainbowkit";
@@ -29,7 +28,6 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <WagmiProvider config={config}>
     <QueryClientProvider client={queryClient}>
       <RainbowKitProvider>
-        {" "}
         <App />
       </RainbowKitProvider>
     </QueryClientProvider>
