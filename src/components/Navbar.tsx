@@ -19,6 +19,9 @@ export default function Navbar() {
             <a href="#home">
               <img className="w-6 h-6" src={logo} alt="Logo" />
             </a>
+            <div className="ml-4 text-xl font-bold text-gray-300">
+              Otaku Verse
+            </div>
           </div>
           <div className="lg:hidden flex">
             <button
