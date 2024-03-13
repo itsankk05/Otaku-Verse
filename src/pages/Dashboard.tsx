@@ -35,11 +35,9 @@ export default function Dashboard() {
       imageUrl:
         "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/0bc3afaa6f4455f8f2a5658d3779a30d.jpg",
       description:
-        "Mob Psycho 100 is an anime series that follows the journey of a powerful psychic middle schooler named Mob as he navigates through life while learning to control his extraordinary abilities and facing various supernatural challenges."
-    }
+        "Mob Psycho 100 is an anime series that follows the journey of a powerful psychic middle schooler named Mob as he navigates through life while learning to control his extraordinary abilities and facing various supernatural challenges.",
+    },
 
-
-    
     // Add more objects for other images
   ];
 
