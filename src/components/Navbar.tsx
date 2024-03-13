@@ -18,7 +18,7 @@ export default function Navbar() {
             <a href="#home">
               <img
                 className="w-6 h-6"
-                src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/resources/logo.png"
+                src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/resources/Dragonball-removebg.png"
                 alt="Logo"
               />
             </a>

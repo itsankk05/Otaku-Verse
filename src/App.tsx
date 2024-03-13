@@ -14,6 +14,7 @@ import Discover from "./pages/Discover";
 
 import { useAccount } from "wagmi";
 
+import AvailableNFT from "./pages/AvailableNFT";
 function App() {
   const { address, isConnected } = useAccount();
   console.log(address, isConnected);
@@ -30,6 +31,7 @@ function App() {
             element={isConnected ? <Dashboard /> : <Navigate to="/" />}
           />
           <Route path="/discover" element={<Discover />}></Route>
+          <Route path="/available-nft/:id" element={<AvailableNFT />}></Route>
         </Routes>
       </Router>
       <Footer />
