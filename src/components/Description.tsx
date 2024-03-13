@@ -1,8 +1,10 @@
 import React from "react";
 
+
 import RightColorPalette from "../images/Right-ColorPalette.png";
 
 import SilverHand from "../images/Silver-Hand.png";
+
 
 import Item2 from "../images/Item2.png";
 import Item4 from "../images/Item4.png";
@@ -14,6 +16,7 @@ import CardItem3 from "../images/CardItem-3.png";
 import CardItem4 from "../images/CardItem-4.png";
 
 export default function Description() {
+  
   return (
     <div>
       <section
@@ -364,6 +367,7 @@ export default function Description() {
           <div className="flex flex-col gap-16 lg:flex-row mt-36"></div>
         </div>
       </section>
+      
     </div>
   );
 }

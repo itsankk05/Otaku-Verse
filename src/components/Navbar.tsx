@@ -17,7 +17,7 @@ export default function Navbar() {
         <div className="flex flex-row items-center justify-between lg:justify-center">
           <div id="logo" className="basis-3/12 flex justify-start items-center">
             <a href="#home">
-              <img className="w-6 h-6" src={logo} alt="Logo" />
+              <img className="w-6 h-6" src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/resources/Dragonball-removebg.png" alt="Logo" />
             </a>
             <div className="ml-4 text-xl font-bold text-gray-300">
               Otaku Verse

@@ -1,9 +1,5 @@
 import React from "react";
 
-import Item1 from "../images/Item1.png";
-import Item2 from "../images/Item2.png";
-import Item3 from "../images/Item3.png";
-import Item4 from "../images/Item4.png";
 
 export default function CardCarousel() {
   const scrl = React.useRef(null);
