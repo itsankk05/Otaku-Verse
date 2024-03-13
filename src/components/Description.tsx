@@ -30,7 +30,9 @@ export default function Description() {
               <div className="w-128">
                 <img
                   className="w-full h-full object-cover"
-                  src={RightColorPalette}
+                  src={
+                    "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/1anime.png"
+                  }
                   alt="Color Palettes"
                 />
               </div>
