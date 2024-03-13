@@ -10,7 +10,11 @@ export default function Footer() {
         >
           <div className="basis-1/3 py-5 px-3 md:p-10 xl:pr-32 flex flex-col gap-12 lg:gap-52">
             <div className="flex flex-row gap-5">
-              <img src={logo} alt="logo" />
+              <img
+                className="w-6 h-6 my-1 ml-2"
+                src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/resources/Dragonball-removebg.png"
+                alt="logo"
+              />
               <h3 className="text-2xl text-white font-Sora font-semibold tracking-wide">
                 OtakuVerse
               </h3>
@@ -24,7 +28,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="basis-1/3 border p-10 xl:p-12 border-y-gray-800 border-x-transparent lg:border-x-gray-800 lg:border-y-transparent flex flex-col justify-start gap-6">
-            <div className="flex flex-col justify-start gap-2 w-max text-white text-md font-Sora">
+            <div className="flex flex-col justify-start gap-2 w-max text-white text-md font-Sora ">
               <div className="hover:text-slate-400 cursor-pointer">
                 Auctions
               </div>
@@ -47,20 +51,8 @@ export default function Footer() {
           </div>
           <div className="basis-1/3 flex flex-col gap-10 lg:gap-0 py-5 px-3 md:p-10 xl:px-24 xl:py-12 justify-center ">
             <div className="text-slate-500 text-center lg:text-start text-sm font-Inter mb-auto">
-              Nibh volutpat, aliquam id sagittis elementum. Pellentesque laoreet
-              velit, sed egestas in. Id nam semper dolor tellus vulputate eget
-              turpis.
+              Made with Anime! <p>Made with Awesomeness!!</p>
             </div>
-            {/* <div className="rounded-xl bg-white py-3 px-4 flex justify-start items-center mt-auto">
-              <input
-                className="font-Inter text-sm text-gray-300"
-                type="text"
-                placeholder="Newsletter"
-              />
-              <div className="text-indigo-800 whitespace-nowrap text-sm font-bold font-Sora ml-auto">
-                Sign in
-              </div>
-            </div> */}
           </div>
         </div>
       </footer>

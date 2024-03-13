@@ -17,25 +17,14 @@ export default function Description() {
                 Overline
               </span>
               <h2 className="font-Sora text-3xl lg:text-4xl  xl:text-6xl mt-3 mb-5">
-                Discover the Future: Your Premier Destination for{" "}
-                <br className="lg:hidden block" /> NFT Trading and Collecting
+                Unlock the Anime Frontier: <br className="lg:hidden block" />{" "}
+                NFT Trading and Collecting
               </h2>
               <p className="text-slate-500 font-Inter">
-                Our website is an innovative platform revolutionizing the way
-                people buy, sell, and collect NFTs. With a curated selection of
-                digital assets and a user-friendly interface, we provide a
-                seamless experience for both creators and collectors in the NFT
-                space.
+                Unlock the Anime Frontier: Your Ultimate Hub for NFT Trading and
+                Collecting Embark on a New Era: Transforming the Anime NFT
+                Landscape. Explore, Trade, and Collect with Ease!
               </p>
-              <div className="flex justify-center lg:justify-start items-center gap-4 mt-8">
-                <ConnectButton />
-                <a
-                  className="text-slate-400 px-4 py-3 border font-Sora text-sm rounded-lg border-slate-700 bg-transparent ease-in duration-100 hover:bg-gray-700 hover:text-white"
-                  href="#more"
-                >
-                  Learn more
-                </a>
-              </div>
             </div>
             <div className="basis-1/2 flex justify-end">
               <div className="w-128">

@@ -15,16 +15,16 @@ export default function Navbar() {
       <nav className="py-6 px-8 w-full absolute top-0 left-0 overflow-x-hidden">
         <div className="flex flex-row items-center justify-between lg:justify-center">
           <div id="logo" className="basis-3/12 flex justify-start items-center">
-            <a href="#home">
+            <a href="/">
               <img
                 className="w-6 h-6"
                 src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/resources/Dragonball-removebg.png"
                 alt="Logo"
               />
             </a>
-            <div className="ml-4 text-xl font-bold text-gray-300">
+            <Link to="/" className="ml-4 text-xl font-bold text-gray-300">
               OtakuVerse
-            </div>
+            </Link>
           </div>
           <div className="lg:hidden flex">
             <button
