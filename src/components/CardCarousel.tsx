@@ -33,9 +33,9 @@ export default function CardCarousel() {
 
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
-                Vulputate felis purus <br /> viverra morbi facilisi eget  
+                 <br />  
               </p>
-              <div style={{ fontSize: "11px" }}>3.19 ETH</div>
+              <div style={{ fontSize: "11px" }}></div>
             </div>
           </div>
           <div className="card-body border border-gray-800 rounded-xl snap-center p-3 w-60 min-w-62 md:min-w-72 flex flex-col justify-center">
@@ -46,13 +46,13 @@ export default function CardCarousel() {
             />
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
-                Vulputate felis purus <br /> viverra morbi facilisi eget
+              <br /> 
               </p>
               <div
                 className="bg-buttonBG text-buttonTxt rounded-sm font-Sora font-black flex items-center h-5 px-2  py-2  text-xs"
                 style={{ fontSize: "11px" }}
               >
-                3.19 ETH
+               
               </div>
             </div>
           </div>
@@ -65,13 +65,13 @@ export default function CardCarousel() {
             />
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
-                Vulputate felis purus <br /> viverra morbi facilisi eget
+                 <br /> 
               </p>
               <div
                 className="bg-buttonBG text-buttonTxt rounded-sm font-Sora font-black flex items-center h-5 px-2  py-2  text-xs"
                 style={{ fontSize: "11px" }}
               >
-                3.19 ETH
+                
               </div>
             </div>
           </div>
@@ -85,13 +85,13 @@ export default function CardCarousel() {
             />
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
-                Vulputate felis purus <br /> viverra morbi facilisi eget
+               <br /> 
               </p>
               <div
                 className="bg-buttonBG text-buttonTxt rounded-sm font-Sora font-black flex items-center h-5 px-2  py-2  text-xs"
                 style={{ fontSize: "11px" }}
               >
-                3.19 ETH
+                
               </div>
             </div>
           </div>
@@ -103,13 +103,13 @@ export default function CardCarousel() {
             />
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
-                Vulputate felis purus <br /> viverra morbi facilisi eget
+                <br /> 
               </p>
               <div
                 className="bg-buttonBG text-buttonTxt rounded-sm font-Sora font-black flex items-center h-5 px-2  py-2  text-xs"
                 style={{ fontSize: "11px" }}
               >
-                3.19 ETH
+                
               </div>
             </div>
           </div>
@@ -122,13 +122,13 @@ export default function CardCarousel() {
             />
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
-                Vulputate felis purus <br /> viverra morbi facilisi eget
+             <br /> 
               </p>
               <div
                 className="bg-buttonBG text-buttonTxt rounded-sm font-Sora font-black flex items-center h-5 px-2  py-2  text-xs"
                 style={{ fontSize: "11px" }}
               >
-                3.19 ETH
+             
               </div>
             </div>
           </div>
@@ -140,13 +140,13 @@ export default function CardCarousel() {
             />
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
-                Vulputate felis purus <br /> viverra morbi facilisi eget
+               <br /> 
               </p>
               <div
                 className="bg-buttonBG text-buttonTxt rounded-sm font-Sora font-black flex items-center h-5 px-2  py-2  text-xs"
                 style={{ fontSize: "11px" }}
               >
-                3.19 ETH
+                
               </div>
             </div>
           </div>
@@ -158,13 +158,13 @@ export default function CardCarousel() {
             />
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
-                Vulputate felis purus <br /> viverra morbi facilisi eget
+               <br /> 
               </p>
               <div
                 className="bg-buttonBG text-buttonTxt rounded-sm font-Sora font-black flex items-center h-5 px-2  py-2  text-xs"
                 style={{ fontSize: "11px" }}
               >
-                3.19 ETH
+             
               </div>
             </div>
           </div>
@@ -176,13 +176,13 @@ export default function CardCarousel() {
             />
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
-                Vulputate felis purus <br /> viverra morbi facilisi eget
+               <br /> 
               </p>
               <div
                 className="bg-buttonBG text-buttonTxt rounded-sm font-Sora font-black flex items-center h-5 px-2  py-2  text-xs"
                 style={{ fontSize: "11px" }}
               >
-                3.19 ETH
+             
               </div>
             </div>
 
@@ -196,14 +196,14 @@ export default function CardCarousel() {
             />
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
-                Vulputate felis purus <br /> viverra morbi facilisi eget
+                 <br /> 
               </p>
               <div
                 className="bg-buttonBG text-buttonTxt rounded-sm font-Sora font-black flex items-center h-5 px-2  py-2  text-xs"
                 style={{ fontSize: "11px" }}
               >
-                3.19 ETH
-              </div>
+              
+                           </div>
             </div>
             <div className="text-white text-xs flex items-center mt-3 font-Sora">
               <i className="bx bx-time text-sm font-thin leading-4 pr-2"></i>
@@ -218,13 +218,13 @@ export default function CardCarousel() {
             />
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
-                Vulputate felis purus <br /> viverra morbi facilisi eget
+           <br /> 
               </p>
               <div
                 className="bg-buttonBG text-buttonTxt rounded-sm font-Sora font-black flex items-center h-5 px-2  py-2  text-xs"
                 style={{ fontSize: "11px" }}
               >
-                3.19 ETH
+            
               </div>
             </div>
           </div>
@@ -236,13 +236,13 @@ export default function CardCarousel() {
             />
             <div className="flex flex-row justify-between mt-2">
               <p className="text-white text-sm font-Sora">
-                Vulputate felis purus <br /> viverra morbi facilisi eget
+                <br /> 
               </p>
               <div
                 className="bg-buttonBG text-buttonTxt rounded-sm font-Sora font-black flex items-center h-5 px-2  py-2  text-xs"
                 style={{ fontSize: "11px" }}
               >
-                3.19 ETH
+              
               </div>
             </div>
 
