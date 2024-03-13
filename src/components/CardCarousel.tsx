@@ -1,9 +1,5 @@
 import React from "react";
 
-import Item1 from "../images/Item1.png";
-import Item2 from "../images/Item2.png";
-import Item3 from "../images/Item3.png";
-import Item4 from "../images/Item4.png";
 
 export default function CardCarousel() {
   const scrl = React.useRef(null);
@@ -30,7 +26,7 @@ export default function CardCarousel() {
         >
           <div className="card-body border border-gray-800 rounded-xl snap-center p-3 w-60 min-w-62 md:min-w-72 flex flex-col justify-center">
             <img
-              src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/00c2a0f2eacf573f1919e43c4bb728f7.jpg"
+              src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/Gemini_Generated_Image%20(2).jpeg"
               alt="Card Thumbnail"
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
@@ -44,7 +40,7 @@ export default function CardCarousel() {
           </div>
           <div className="card-body border border-gray-800 rounded-xl snap-center p-3 w-60 min-w-62 md:min-w-72 flex flex-col justify-center">
             <img
-              src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/1e7f87b0d351f0f1e80ace863ae1b09c.jpg"
+              src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/Gemini_Generated_Image%20(3).jpeg"
               alt="Card Thumbnail"
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
@@ -63,7 +59,7 @@ export default function CardCarousel() {
           <div className="card-body border border-gray-800 rounded-xl snap-center p-3 w-60 min-w-62 md:min-w-72 flex flex-col justify-center">
             <img
             
-              src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/241e10fc0a3e52029551db5fa83d417a.jpg"
+              src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/Gemini_Generated_Image%20(4).jpeg"
               alt="Card Thumbnail"
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
@@ -101,7 +97,7 @@ export default function CardCarousel() {
           </div>
           <div className="card-body border border-gray-800 rounded-xl snap-center p-3 w-60 min-w-62 md:min-w-72 flex flex-col justify-center">
             <img
-              src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/00c2a0f2eacf573f1919e43c4bb728f7.jpg"
+              src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/Gemini_Generated_Image%20(6).jpeg"
               alt="Card Thumbnail"
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
@@ -156,7 +152,7 @@ export default function CardCarousel() {
           </div>
           <div className="card-body border border-gray-800 rounded-xl snap-center p-3 w-60 min-w-62 md:min-w-72 flex flex-col justify-center">
           <img
-              src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/1c8361e50fd7452cd942a102cdab3d78.jpg"
+              src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/Gemini_Generated_Image%20(7).jpeg"
               alt="Card Thumbnail"
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />

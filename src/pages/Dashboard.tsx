@@ -2,42 +2,69 @@ import { useState } from "react";
 import OTVTOKENABI from "../abis/NFTContract.js";
 import constants from "../helper/constants.js";
 import { useWriteContract } from "wagmi";
+import { Link } from "react-router-dom";
+
 export default function Dashboard() {
   // Define an array of objects containing image URLs and other relevant data
   const imageItems = [
     {
-      imageUrl:
-        "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/00c2a0f2eacf573f1919e43c4bb728f7.jpg",
+      id: 1,
+      coverUrl:
+        "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/Otaku%20E1S1_1.jpg",
+      imageUrls: [
+        "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/Otaku%20E1S1_1.jpg",
+        "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/haki-1024x341.jpg.webp",
+      ],
       description:
         "Collaborate in realtime with other editors in a project. See what other editors are doing and edit even a simple text together",
     },
     {
-      imageUrl:
+      id: 2,
+      coverUrl:
         "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/haki-1024x341.jpg.webp",
+      imageUrl: [
+        "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/haki-1024x341.jpg.webp",
+      ],
       description:
         "Haki is a special power system in the anime series One Piece, granting users various abilities such as enhanced physical strength, precognition, and the ability to control others.",
     },
     {
-      imageUrl:
+      id: 3,
+      coverUrl:
         "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/images.jpg",
+      imageUrl: [
+        "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/images.jpg",
+      ],
       description:
         "Azuki Anime is a community-driven platform providing curated recommendations and discussions for anime enthusiasts.",
     },
     {
-      imageUrl:
+      id: 4,
+      coverUrl:
         "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/matt.webp",
+      imageUrl: [
+        "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/matt.webp",
+      ],
       description:
         "Azuki Anime is a community-driven platform providing curated recommendations and discussions for anime enthusiasts.",
     },
     {
-      imageUrl:
-        "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/1_qQI4CLNgaXyxgsVUBsTW9w.jpeg.webp",
+      id: 5,
+      coverUrl:
+        "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/Otaku%20E4S1_4.webp",
+      imageUrl: [
+        "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/Otaku%20E4S1_4.webp",
+      ],
       description:
         "Azuki Anime is a community-driven platform providing curated recommendations and discussions for anime enthusiasts.",
     },
     {
-      imageUrl:
-        "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/0bc3afaa6f4455f8f2a5658d3779a30d.jpg",
+      id: 6,
+      coverUrl:
+        "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/bcb5c83e36ffbfee2f769c32e51894fb.jpg",
+      imageUrl: [
+        "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/bcb5c83e36ffbfee2f769c32e51894fb.jpg",
+      ],
       description:
         "Mob Psycho 100 is an anime series that follows the journey of a powerful psychic middle schooler named Mob as he navigates through life while learning to control his extraordinary abilities and facing various supernatural challenges.",
     },
@@ -85,20 +112,21 @@ export default function Dashboard() {
           </div>
           <div className="grid max-w-4xl lg:max-w-6xl grid-cols-1 mx-auto mt-8 text-center gap-y-4 sm:gap-x-8 sm:grid-cols-2 lg:grid-cols-3 sm:mt-12 lg:mt-20 sm:text-left">
             {imageItems.map((item, index) => (
-              <div
-                key={index}
-                className="relative overflow-hidden bg-white shadow-md rounded-xl p-9 transition duration-300 ease-in-out hover:bg-white-300 hover:scale-110"
-                style={{
-                  backgroundImage: `url(${item.imageUrl})`,
-                  backgroundSize: "cover",
-                  backgroundPosition: "center",
-                }}
-              >
-                <div className="p-9 bg-opacity-75  "></div>
-                <p className="opacity-0 hover:opacity-100 duration-300 absolute inset-0  flex justify-center items-center">
-                  {item.description}
-                </p>
-              </div>
+              <Link key={index} to={`/available-nft/${item.id}`}>
+                <div
+                  className="relative overflow-hidden bg-white shadow-md rounded-xl p-9 transition duration-300 ease-in-out hover:bg-white-300 hover:scale-110"
+                  style={{
+                    backgroundImage: `url(${item.coverUrl})`,
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
+                >
+                  <div className="p-9 bg-opacity-75"></div>
+                  <p className="opacity-0 hover:opacity-100 duration-300 absolute inset-0  flex justify-center items-center">
+                    {item.description}
+                  </p>
+                </div>
+              </Link>
             ))}
           </div>
         </div>

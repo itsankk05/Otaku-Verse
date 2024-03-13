@@ -22,25 +22,6 @@ export default function Discover() {
 
   useEffect(() => {
     if (videoElement) {
-      // get current time
-      const elapsed_seconds = videoElement.target.getCurrentTime();
-
-      // calculations
-      const elapsed_milliseconds = Math.floor(elapsed_seconds * 1000);
-      const ms = elapsed_milliseconds % 1000;
-      const min = Math.floor(elapsed_milliseconds / 60000);
-      const seconds = Math.floor((elapsed_milliseconds - min * 60000) / 1000);
-
-      const formattedCurrentTime =
-        min.toString().padStart(2, "0") +
-        ":" +
-        seconds.toString().padStart(2, "0") +
-        ":" +
-        ms.toString().padStart(3, "0");
-
-      // console.log(formattedCurrentTime);
-
-      // Pause and Play video
       if (isPaused) {
         videoElement.target.pauseVideo();
       } else {
@@ -53,24 +34,6 @@ export default function Discover() {
   useEffect(() => {
     const interval = setInterval(async () => {
       if (videoElement && videoElement.target.getCurrentTime() > 0) {
-        const elapsed_seconds = videoElement.target.getCurrentTime();
-
-        // calculations
-        const elapsed_milliseconds = Math.floor(elapsed_seconds * 1000);
-        const ms = elapsed_milliseconds % 1000;
-        const min = Math.floor(elapsed_milliseconds / 60000);
-        const seconds = Math.floor((elapsed_milliseconds - min * 60000) / 1000);
-
-        const formattedCurrentTime =
-          min.toString().padStart(2, "0") +
-          ":" +
-          seconds.toString().padStart(2, "0") +
-          ":" +
-          ms.toString().padStart(3, "0");
-
-        // console.log(formattedCurrentTime);
-
-        // verify video status
         if (videoElement.target.playerInfo.playerState === 1) {
           console.log("the video is running");
         } else if (videoElement.target.playerInfo.playerState === 2) {
@@ -100,13 +63,21 @@ export default function Discover() {
         </h1>
         <YouTube
           className="my-10"
-          videoId={"IUN664s7N-c"}
+          videoId={"60A31DKGzAM"}
           opts={opts}
           onReady={_onReady}
           onEnd={_onEnd}
         />
-        <button onClick={togglePause}>Pause</button>
-        {videoEnded && <p className="text-white">The video has ended.</p>}
+
+        {videoEnded && (
+          <button
+            type="button"
+            className="text-green-700 hover:text-white border border-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-green-500 dark:text-green-500 dark:hover:text-white dark:hover:bg-green-600 dark:focus:ring-green-800"
+            disabled={!videoEnded}
+          >
+            Mint
+          </button>
+        )}
       </div>
     </div>
   );

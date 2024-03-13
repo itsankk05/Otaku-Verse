@@ -2,7 +2,6 @@ import { useState } from "react";
 import logo from "../images/Sygnet.png";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { Link } from "react-router-dom";
-// import Dashboard from "../pages/Dashboard";
 
 export default function Navbar() {
   const [isActive, setActive] = useState(false);
@@ -17,10 +16,14 @@ export default function Navbar() {
         <div className="flex flex-row items-center justify-between lg:justify-center">
           <div id="logo" className="basis-3/12 flex justify-start items-center">
             <a href="#home">
-              <img className="w-6 h-6" src={logo} alt="Logo" />
+              <img
+                className="w-6 h-6"
+                src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/resources/Dragonball-removebg.png"
+                alt="Logo"
+              />
             </a>
             <div className="ml-4 text-xl font-bold text-gray-300">
-              Otaku Verse
+              OtakuVerse
             </div>
           </div>
           <div className="lg:hidden flex">
@@ -62,9 +65,6 @@ export default function Navbar() {
             <Link to="/discover" className="text-slate-400 hover:text-white">
               Discover
             </Link>
-            <a href="#Community" className="text-slate-400 hover:text-white">
-              Community
-            </a>
           </div>
           <div className="nav-contact basis-3/12 hidden lg:flex justify-end gap-3 items-center text-xs font-semibold font-Sora">
             <ConnectButton />
@@ -116,12 +116,12 @@ export default function Navbar() {
                     >
                       Auctions
                     </a>
-                    {/* <Link
+                    <Link
                       to={"/dashboard"}
                       className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-200 hover:bg-gray-400/10"
-                    > */}
-                    Dashboard
-                    {/* </Link> */}
+                    >
+                      Dashboard
+                    </Link>
                     <a
                       href="#Discover"
                       className="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-200 hover:bg-gray-400/10"
