@@ -9,6 +9,7 @@ export default function Dashboard() {
   const imageItems = [
     {
       id: 1,
+      title: "Anime 1",
       coverUrl:
         "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/Otaku%20E1S1_1.jpg",
       imageUrls: [
@@ -20,6 +21,7 @@ export default function Dashboard() {
     },
     {
       id: 2,
+      title: "Anime 2",
       coverUrl:
         "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/haki-1024x341.jpg.webp",
       imageUrl: [
@@ -30,6 +32,7 @@ export default function Dashboard() {
     },
     {
       id: 3,
+      title: "Anime 3",
       coverUrl:
         "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/images.jpg",
       imageUrl: [
@@ -40,6 +43,7 @@ export default function Dashboard() {
     },
     {
       id: 4,
+      title: "Anime 4",
       coverUrl:
         "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/matt.webp",
       imageUrl: [
@@ -50,6 +54,7 @@ export default function Dashboard() {
     },
     {
       id: 5,
+      title: "Anime 5",
       coverUrl:
         "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/Otaku%20E4S1_4.webp",
       imageUrl: [
@@ -60,6 +65,7 @@ export default function Dashboard() {
     },
     {
       id: 6,
+      title: "Anime 6",
       coverUrl:
         "https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/nft-images/bcb5c83e36ffbfee2f769c32e51894fb.jpg",
       imageUrl: [
@@ -105,7 +111,7 @@ export default function Dashboard() {
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="max-w-xl mx-auto text-center xl:max-w-2xl">
             <h2 className="text-3xl font-bold leading-tight text-gray-50 sm:text-4xl xl:text-5xl mb-6 my-10">
-              Your NFTs
+              Dashboard
             </h2>
           </div>
           <div className="grid max-w-4xl lg:max-w-6xl grid-cols-1 mx-auto mt-8 text-center gap-y-4 sm:gap-x-8 sm:grid-cols-2 lg:grid-cols-3 sm:mt-12 lg:mt-20 sm:text-left">
@@ -117,11 +123,13 @@ export default function Dashboard() {
                     backgroundImage: `url(${item.coverUrl})`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
+                    height: "300px",
+                    width: "300px",
                   }}
                 >
                   <div className="p-9 bg-opacity-75"></div>
                   <p className="opacity-0 hover:opacity-100 duration-300 absolute inset-0  flex justify-center items-center">
-                    {item.description}
+                    {item.title}
                   </p>
                 </div>
               </Link>
