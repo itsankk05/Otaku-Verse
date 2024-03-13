@@ -1,5 +1,5 @@
 const constants = {
-  CONRACTADDR: "0x203DCC0D2de32FeBEF9D3C0ad7fb33ff8C25711a",
+  CONRACTADDR: "0x45AC6AB7446Fd0124D344519B7474364aF1e9f76",
 };
 
 export default constants;

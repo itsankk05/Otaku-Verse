@@ -80,6 +80,7 @@ export default function Dashboard() {
   const contractAddress = constants.CONRACTADDR;
   const contractABI = OTVTOKENABI;
   const { address } = useAccount();
+
   /*
    * Create a method that gets all waves from your contract
    */
@@ -88,7 +89,7 @@ export default function Dashboard() {
   return (
     <div>
       <section className="py-12 bg-gray-900 text-gray-100 sm:py-12 lg:py-16 ">
-        <div className="flex justify-center items-center">
+        {/* <div className="flex justify-center items-center">
           <button
             type="button"
             className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm m-10 px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
@@ -96,17 +97,14 @@ export default function Dashboard() {
               writeContract({
                 address: contractAddress as `0x${string}`,
                 abi: contractABI,
-                functionName: "safeMint",
-                args: [
-                  address,
-                  "ipfs://QmcxhRwKmYcaDrsh7bM7rKE9118PP9DbhcfSUAm6xn68uT",
-                ],
+                functionName: "mintNFT",
+                args: [address!, "1234"],
               });
             }}
           >
             Mint
           </button>
-        </div>
+        </div> */}
 
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="max-w-xl mx-auto text-center xl:max-w-2xl">

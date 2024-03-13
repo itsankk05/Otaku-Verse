@@ -8,15 +8,6 @@ import {
   RainbowKitProvider,
 } from "@rainbow-me/rainbowkit";
 import { WagmiProvider } from "wagmi";
-import {
-  mainnet,
-  polygon,
-  optimism,
-  arbitrum,
-  base,
-  zora,
-  sepolia,
-} from "wagmi/chains";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 
 const shardeumDev = {
@@ -33,16 +24,7 @@ const shardeumDev = {
 const config = getDefaultConfig({
   appName: "My RainbowKit App",
   projectId: "YOUR_PROJECT_ID",
-  chains: [
-    mainnet,
-    polygon,
-    optimism,
-    arbitrum,
-    base,
-    zora,
-    sepolia,
-    shardeumDev,
-  ],
+  chains: [shardeumDev],
   ssr: true, // If your dApp uses server side rendering (SSR)
 });
 
