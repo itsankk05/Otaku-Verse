@@ -12,13 +12,23 @@ import {
   base,
   zora,
   shardeumSphinx,
+  sepolia,
 } from "wagmi/chains";
 import { QueryClientProvider, QueryClient } from "@tanstack/react-query";
 
 const config = getDefaultConfig({
   appName: "My RainbowKit App",
   projectId: "YOUR_PROJECT_ID",
-  chains: [mainnet, polygon, optimism, arbitrum, base, zora, shardeumSphinx],
+  chains: [
+    mainnet,
+    polygon,
+    optimism,
+    arbitrum,
+    base,
+    zora,
+    shardeumSphinx,
+    sepolia,
+  ],
   ssr: true, // If your dApp uses server side rendering (SSR)
 });
 
