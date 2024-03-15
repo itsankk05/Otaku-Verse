@@ -1,5 +1,3 @@
-import logo from "../images/Sygnet.png";
-
 export default function Footer() {
   return (
     <div>
