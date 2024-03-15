@@ -1,7 +1,4 @@
 import AvatarCard1 from "../images/CardInCardAvatar-1.png";
-import AvatarCard2 from "../images/CardInCardAvatar-2.png";
-import AvatarCard3 from "../images/CardInCardAvatar-3.png";
-import AvatarCard4 from "../images/CardInCardAvatar-4.png";
 
 export default function About() {
   return (
@@ -14,7 +11,7 @@ export default function About() {
                 About the <br /> Creators! <br /> Connect Now
               </h3>
               <p className="text-slate-500 font-Inter text-sm">
-                Join us in fostering community bonds. At Okatu-Verse, <br />{" "}
+                Join us in fostering community bonds. At Okatu-Verse, <br />
                 we're dedicated to connecting with our community to <br /> share
                 experiences, support one another, and create a vibrant,
                 inclusive space for all.
@@ -23,7 +20,11 @@ export default function About() {
             <div className="absolute top-20 right-0 z-10">
               <div className="grid grid-cols-2 gap-6">
                 <div className="p-4 pr-48 rounded-3xl opacity-25 xl:blur-none xl:opacity-100 border border-gray-800 bg-midnight flex justify-start items-start">
-                  <img src={AvatarCard1} alt="Avatar Profile" />
+                  <img
+                    className="rounded-full h-14 w-16"
+                    src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/resources/Ank_pfp.jpg"
+                    alt="Avatar Profile"
+                  />
                   <div className="flex flex-col justify-start pl-4 pr-2">
                     <div className="flex justify-between items-center gap-20">
                       <h5 className="text-white text-lg font-Sora">
@@ -61,7 +62,11 @@ export default function About() {
                   </div>
                 </div>
                 <div className="p-4 pr-48 rounded-3xl opacity-25 xl:blur-none xl:opacity-100 border border-gray-800 bg-midnight flex justify-start items-start">
-                  <img src={AvatarCard1} alt="Avatar Profile" />
+                  <img
+                    src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/resources/Jeet_pfp.png"
+                    alt="Avatar Profile"
+                    className="rounded-full h-14 w-16"
+                  />
                   <div className="flex flex-col justify-start pl-4 pr-2">
                     <div className="flex justify-between items-center gap-20">
                       <h5 className="text-white text-lg font-Sora">
@@ -101,7 +106,11 @@ export default function About() {
                   </div>
                 </div>
                 <div className="p-4 pr-48 rounded-3xl opacity-25 xl:blur-none xl:opacity-100 border border-gray-800 bg-midnight flex justify-start items-start">
-                  <img src={AvatarCard1} alt="Avatar Profile" />
+                  <img
+                    src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/resources/Zaid_pfp.jpg"
+                    alt="Avatar Profile"
+                    className="rounded-full h-14 w-16"
+                  />
                   <div className="flex flex-col justify-start pl-4 pr-2">
                     <div className="flex justify-between items-center gap-20">
                       <h5 className="text-white text-lg font-Sora">
@@ -141,7 +150,11 @@ export default function About() {
                   </div>
                 </div>
                 <div className="p-4 pr-48 rounded-3xl opacity-25 xl:blur-none xl:opacity-100 border border-gray-800 bg-midnight flex justify-start items-start">
-                  <img src={AvatarCard1} alt="Avatar Profile" />
+                  <img
+                    src="https://slwehdbwpcxuqrwxmwqq.supabase.co/storage/v1/object/public/resources/Ujjawal_pfp.jpg"
+                    alt="Avatar Profile"
+                    className="rounded-full h-14 w-16"
+                  />
                   <div className="flex flex-col justify-start pl-4 pr-2">
                     <div className="flex justify-between items-center gap-20">
                       <h5 className="text-white text-lg font-Sora">
