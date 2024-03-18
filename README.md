@@ -76,6 +76,10 @@ Here is how to install this project. (*Now that you are here it is assumed that 
    ```sh
    npm install
    ```
+3. Run the server
+   ```sh
+   npm run dev
+   ```
 3. Smart contract link : https://github.com/dev-zaid/0x5027-contract  
 
 <br />
